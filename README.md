@@ -2,18 +2,24 @@
 
 # Usage
 
+## c
+
 ```shell
-$ g++ -o out main.cc
+$ gcc ./src-c/main.c -o main
 ```
 
 ```shell
-$ ls
+$ ./src-c/main
+```
 
-main.cc    out*
+## cpp
+
+```shell
+$ g++ -o ./src-cpp/main ./src-cpp/main.cpp
 ```
 
 ```shell
-$ ./out
+$ ./src-cpp/main
 ```
 
-Since it has already been compiled, you only need `./out` is all that is needed.
+Since it has already been compiled.
